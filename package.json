@@ -1,24 +1,23 @@
 {
-  "name": "git-test",
+  "name": "nucampsite",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is a website for the fictional campsites review site NuCamp.",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
     "start": "npm run lite",
-    "lite": "lite-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vamplrea/4thPC.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vamplrea/4thPC/issues"
-  },
-  "homepage": "https://github.com/vamplrea/4thPC#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
